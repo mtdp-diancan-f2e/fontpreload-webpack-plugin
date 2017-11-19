@@ -1,0 +1,22 @@
+{
+  "name": "fontpreload-webpack-plugin",
+  "version": "1.0.0",
+  "description": "A Webpack plugin for automatically wiring up webfont resources using <link rel='preload'>.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtdp-diancan-f2e/fontpreload-webpack-plugin.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mtdp-diancan-f2e/fontpreload-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/mtdp-diancan-f2e/fontpreload-webpack-plugin#readme",
+  "devDependencies": {
+    "eslint": "^4.10.0"
+  }
+}
