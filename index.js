@@ -47,7 +47,7 @@ class FontPreloadPlugin {
                         }
                         return false;
                     }).map((assetName) => {
-                            return `<link rel="${options.rel || 'preload'}" as="font" type=${extMappings[getExt(assetName)]} ${options.crossorigin ? 'crossorigin="anonymous"' : ''} href="${publicPath}${assetName}" >`;
+                            return `<link rel="${options.rel || 'preload'}" as="font" type=${extMappings[getExt(assetName)]} ${options.crossorigin ? `crossorigin=${options.crossorigin}` : ''} href="${publicPath}${assetName}" >`;
                     });
                 }
                 if (filesToInclude.length > 0) {

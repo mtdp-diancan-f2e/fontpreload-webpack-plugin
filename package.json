@@ -1,6 +1,6 @@
 {
   "name": "fontpreload-webpack-plugin",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A Webpack plugin for automatically wiring up webfont resources using <link rel='preload'>.",
   "main": "index.js",
   "scripts": {
