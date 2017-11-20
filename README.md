@@ -14,6 +14,7 @@ plugins: [
     new FontPreloadWebpackPlugin({
         rel: 'prefetch', // preload default
         fontNameList: ['fontawesome-webfont'],
+        crossorigin: true, // false default
     })
 ],
 
